@@ -1,46 +1,20 @@
 # NEOVIM
 
-> Install · Configure · Docs LazyVim is a Neovim setup powered by [💤 lazy.nvim](https://github.com/folke/lazy.nvim) to make it easy to customize and extend your config. Rather than having to choose between starting from scratch or using a pre-made distro, LazyVim offers the best of both worlds - the flexibility to tweak your config as needed, along with the convenience of a pre-configured setup.
+> Documentation | Chat Neovim is a project that seeks to aggressively refactor [Vim](https://www.vim.org/) in order to:
 
-**Category:** SOFTWARE_DEVELOPMENT · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/LazyVim/LazyVim · **Pinned commit:** `999700997f72227187d49d8b92667183dc7fc809` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/LazyVim/LazyVim` as the implementation for the `NEOVIM` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** SOFTWARE_DEVELOPMENT · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/neovim/neovim · **Pinned commit:** `254551ea3913466d0cf077c6aed8095779377f02` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-Install · Configure · Docs LazyVim is a Neovim setup powered by [💤 lazy.nvim](https://github.com/folke/lazy.nvim) to make it easy to customize and extend your config. Rather than having to choose between starting from scratch or using a pre-made distro, LazyVim offers the best of both worlds - the flexibility to tweak your config as needed, along with the convenience of a pre-configured setup.
+Documentation | Chat Neovim is a project that seeks to aggressively refactor [Vim](https://www.vim.org/) in order to:
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-You can find a starter template for **LazyVim** [here](https://github.com/LazyVim/starter)
-
-<details><summary>Try it with Docker</summary>
-
-```sh
-docker run -w /root -it --rm alpine:edge sh -uelic '
-  apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
-  cd ~/.config/nvim
-  nvim
-'
 ```
-
-</details>
-
-<details><summary>Install the <a href="https://github.com/LazyVim/starter">LazyVim Starter</a></summary>
-
-- Make a backup of your current Neovim files:
-
-  ```sh
-  mv ~/.config/nvim ~/.config/nvim.bak
-  mv ~/.local/share/nvim ~/.local/share/nvim.bak
-  ```
-
-- Clone the starter
-
-  ```sh
+# See the upstream README (linked above) for build steps.
+```
 
 ## Usage
 
@@ -86,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-2c2893cdb4294b2bed90493392c5c167e3e3f35c88a6db92183c7cdb692a99aa
+c628e6979826525135530c9e50d61fe1e2871cf31bb03144c41c766a15f96455
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

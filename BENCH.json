@@ -540,9 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "999700997f72227187d49d8b92667183dc7fc809",
-   "url": "https://github.com/LazyVim/LazyVim",
-   "sha_verified_from": "agent_alternatives_denied.json/alternative_found | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/neovim/neovim",
+   "head": "254551ea3913466d0cf077c6aed8095779377f02",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/LazyVim/LazyVim"
   }
  }
 }
