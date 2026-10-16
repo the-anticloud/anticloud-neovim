@@ -543,7 +543,7 @@
    "url": "https://github.com/neovim/neovim",
    "head": "254551ea3913466d0cf077c6aed8095779377f02",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/LazyVim/LazyVim"
+   "previous_substitute": "https://github.com/neovim/neovim"
   }
  }
 }
